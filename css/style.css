@@ -71,15 +71,49 @@ p {
     line-height: 32px;  
 }
 
+/* RECIPE STYLING */
+.recipe {
+    margin: 0;
+    padding: 0;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+    gap: 15px;
+}
+
+.recipe-info {
+    grid-column: 2; /* Place the box in the middle column */
+    margin: 0 auto; /* Center horizontally within the middle column */
+    text-align: center; /* Center the text within the box */
+}
+
+/* PET STYLING */
+
+.pet {
+    margin: 0;
+    padding: 0;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+    gap: 15px;
+}
+
+.pet-info {
+    grid-column: 2; /* Place the box in the middle column */
+    margin: 0 auto; /* Center horizontally within the middle column */
+    text-align: center; /* Center the text within the box */
+}
+
 /* LOCATION styling */
 .location {
     margin: 0;
     padding: 0;
     margin-top: 25px;
     margin-bottom: 50px;
-
     display: grid;
-    grid-template-columns: 25% 50% 25%;
+    grid-template-columns: 15% 70% 15%;
     gap: 15px;
 }
 
