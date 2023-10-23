@@ -78,7 +78,7 @@ p {
     margin-bottom: 50px;
     display: grid;
     grid-template-columns: 15% 70% 15%;
-    gap: 15px;
+    /* gap: 15px; */
 }
 
 .recipe-info {
@@ -95,7 +95,7 @@ p {
     margin-bottom: 50px;
     display: grid;
     grid-template-columns: 15% 70% 15%;
-    gap: 15px;
+    /* gap: 15px; */
 }
 
 .pet-info {
@@ -112,7 +112,7 @@ p {
     margin-bottom: 50px;
     display: grid;
     grid-template-columns: 15% 70% 15%;
-    gap: 15px;
+    /* gap: 15px; */
 }
 
 .location-info {
