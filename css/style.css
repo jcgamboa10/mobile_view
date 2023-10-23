@@ -52,7 +52,9 @@ a {
 }
 
 .skipToMain {
-    display: none;
+    display: hidden;
+    position: relative;
+    top: -400px;
 }
 
 a:hover {
@@ -137,7 +139,7 @@ p {
         scroll-behavior: auto; /* Removes scroll animation */
     }
   
-    .skip a {
+    .skipToMain {
       -webkit-transition: none; /* sets to default setting */
       transition: none;        /* sets to default setting */
      }  
